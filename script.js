@@ -1,8 +1,8 @@
 const inputEl = document.getElementById("input_el")
 const convertBtn = document.getElementById("convert_btn")
-let convertLength =document.getElementById("convert_length")
-let convertVolume = document.getElementById("convert_volume")
-let convertMass = document.getElementById("convert_mass")
+const convertLength =document.getElementById("convert_length")
+const convertVolume = document.getElementById("convert_volume")
+const convertMass = document.getElementById("convert_mass")
 
 convertBtn.addEventListener("click", function() {
   const converted = inputEl.value;
