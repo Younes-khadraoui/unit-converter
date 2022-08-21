@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" href="Images/icon.png" />
+    <title>Unit converter</title>
+  </head>
+  <body>
+    <main>
+      <div class="top-container">
+        <p>Metric/Imperial Unit Conversion</p>
+        <input type="text" id="input_el" />
+        <button class="convert-btn" id="convert_btn">convert</button>
+      </div>
+      <div class="bottom-container">
+        <div class="length convert-box">
+          <p class="convert-to">length (Meter/Feet)</p>
+          <p class="convert-result" id="convert_length">
+            .. M = .. Feet | .. Feet = .. M
+          </p>
+        </div>
+        <div class="volume convert-box">
+          <p class="convert-to">Volume (Liters/Gallons)</p>
+          <p class="convert-result" id="convert_volume">
+            .. L = .. Gallons | .. Gallons | = .. L
+          </p>
+        </div>
+        <div class="mass convert-box">
+          <p class="convert-to">Mass (Kilograms/pounds)</p>
+          <p class="convert-result" id="convert_mass">
+            .. Kg = .. Pounds | .. Pounds = .. Kg
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

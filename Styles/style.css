@@ -1,0 +1,66 @@
+body {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-container {
+  display: grid;
+  gap: .4rem;
+  place-items: center;
+  background-color: #6943FF;
+  padding: 15px;
+  color: white;
+  border-radius: .5rem .5rem 0 0;
+}
+main {
+  width: 50vh;
+  height: 50vh;
+  opacity: .8;
+}
+input {
+  color: white;
+  background-color: transparent;
+  border: none;
+  border: 1px solid white ;
+  align-items: center;
+  width: 3rem;
+  border-radius: .3rem;
+  padding: 5px;
+}
+.convert-btn {
+  color: rgb(29, 18, 18);
+  border-radius: .3rem;
+  border: none;
+  padding: .2rem;
+}
+.convert-btn:hover {
+  opacity: .9;
+}
+.convert-btn:active {
+  opacity: .8;
+}
+
+.bottom-container {
+  background-color: #1F2937;
+  padding: 15px;
+  display: grid;
+  gap: .5rem;
+  border-radius: 0 0 .5rem .5rem ;
+}
+.convert-box {
+  background-color: #273549;
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: .2rem .5rem;
+}
+.convert-to {
+  color: #CCC1FF;
+}
+.convert-result {
+  color: white;
+  font-size: small;
+}
